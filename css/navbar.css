@@ -1,18 +1,17 @@
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
-    background: rgba(0,0,0,0.5);
+    background-color: #f4f4f4;
   }
   
   a {
-    color:White;
-    font-weight: 200;
+    color: #000;
   }
   
   /* header */
   
   .header {
-    background-color:;
+    background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -24,16 +23,20 @@ body {
     padding: 0;
     list-style: none;
     overflow: hidden;
-
+    background-color: #fff;
   }
   
   .header li a {
     display: block;
     padding: 20px 20px;
-    
+    border-right: 1px solid #f4f4f4;
     text-decoration: none;
   }
   
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
   
   .header .logo {
     display: block;
@@ -63,7 +66,7 @@ body {
   }
   
   .header .menu-icon .navicon {
-    background: rgba(0,0,0,0.5);
+    background: #333;
     display: block;
     height: 2px;
     position: relative;
@@ -73,7 +76,7 @@ body {
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: rgba(0,0,0,0.5);
+    background: #333;
     content: '';
     display: block;
     height: 100%;

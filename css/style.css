@@ -1,9 +1,26 @@
 body{
-    background-color: aliceblue;
+    background-color:white;
 }
 
 .container-fluid{
-    height: 600px;
-    background-color:aliceblue;
+    height: 850px;
+    background-color:white;
     border: 0.1px black solid;
+    padding: 0;
+}
+
+#image1{
+    height: 850px;
+    width: 100%;
+    margin: 0;
+}
+
+.tz-gallery{
+
+}
+
+.tz-gallery img{
+    height: 260px;
+    padding: 20px;
+    box-shadow: 10px;
 }
