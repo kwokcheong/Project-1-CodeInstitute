@@ -1,3 +1,9 @@
 body{
     background-color: aliceblue;
 }
+
+.container-fluid{
+    height: 600px;
+    background-color:aliceblue;
+    border: 0.1px black solid;
+}
