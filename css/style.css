@@ -58,6 +58,12 @@ section{
     background-color: rgb(241, 241, 241);
 }
 
+#namecard img{
+    height: 80px;
+    width: auto;
+    margin-left: 30px;
+}
+
 section .container{
     padding: 1em;
     border-radius: .5em;
@@ -67,14 +73,32 @@ section .container{
     12px 12px 12px 0 rgb(0, 0, 0, .07);
 }
 
-.container h5{
-    color: black;
+#namecard2{ 
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    justify-content: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#namecard2 .container{
+
+    padding: 1em;
+    border-radius: 10em;
+    height: 50%;
+    width: 250px;
+    box-shadow: -12px -12px 12px 0 rgb(255, 255, 255, .02),
+    12px 12px 12px 0 rgb(0, 0, 0, .3);
+}
+
+.container h1{
+    color: rgba(235, 55, 0, 0.76);
     text-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0);
     text-align: center;
     padding: 1em;
     font-family: 'Raleway' ;
     margin-top: 10%;
-    font-weight: 1000;
+    font-weight: bolder;
 }
 
 .container p{
