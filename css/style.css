@@ -1,23 +1,25 @@
 
 
 #hero{
-    height: 850px;
     background-color:white;
-    border: 0.1px black solid;
     padding: 0;
 }
 
 #image1{
-    height: 850px;
+    height: 750px;
     width: 100%;
     margin: 0;
 }
 
-#about-section { 
-    height: 550px;
-    background-color:white;
-    border: 0.1px black solid;
-    padding: 0;
+section{
+    height: 500px;
+    padding: 50px;
+}
+
+.w3-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .tz-gallery{
