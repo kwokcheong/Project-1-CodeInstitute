@@ -5,8 +5,14 @@
     padding: 0;
 }
 
+.well{
+    color: #9c9c9c;
+    height: 70px;
+    background-color: rgb(37, 37, 37);
+}
+
 #image1{
-    height: 750px;
+    height: auto;
     width: 100%;
     margin: 0;
 }
@@ -27,7 +33,8 @@ section{
 }
 
 .tz-gallery img{
-    height: 260px;
+    height: 450px;
+    width: auto;
     padding: 20px;
 }
 
