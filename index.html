@@ -8,15 +8,209 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="gallery-grid.css">
+
     <title>Hello, world!</title>
   </head>
   <body>
-    
 
+    <!-- Nav bar hamburger -->
+    <header class="header">
+      <a href="" class="logo">The Golden Cut</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#work">Our Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <!-- end of navbar hamburger -->
+    
+    <!-- container for header -->
+    <div class="container-fluid" id="hero">
+      <img src="images/cuthair.jpg" id="image1" alt="heroimage">
+    </div>
+    <!-- end header container -->
+
+    <!-- start container singers-->
+    <div class="container-fluid" id="about-section">
+      Placeholder for the 3 singer image
+    </div>
+    <!-- end container singers-->
+
+    <!-- start gallery-->
+    <div class="container gallery-container">
+
+      <h1>Bootstrap 3 Gallery</h1>
+  
+      <p class="page-description text-center">Grid Layout With Zoom Effect</p>
+      <div class="tz-gallery">
+          <div class="row">
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/cuthair.jpg">
+                      <img src="images/cuthair.jpg" alt="Park">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/cuthair.jpg">
+                      <img src="images/cuthair.jpg" alt="Bridge">
+                  </a>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                  <a class="lightbox" href="images/cuthair.jpg">
+                      <img src="images/cuthair.jpg" alt="Tunnel">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/cuthair.jpg">
+                      <img src="images/cuthair.jpg" alt="Coast">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/cuthair.jpg">
+                      <img src="images/cuthair.jpg" alt="Rails">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/cuthair.jpg">
+                      <img src="images/cuthair.jpg" alt="Traffic">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/cuthair.jpg">
+                      <img src="images/cuthair.jpg" alt="Rocks">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/cuthair.jpg">
+                      <img src="images/cuthair.jpg" alt="Benches">
+                  </a>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                  <a class="lightbox" href="images/cuthair.jpg">
+                      <img src="images/cuthair.jpg" alt="Sky">
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- end gallery -->
+
+  <!-- Footer -->
+  <div id="footer" style="margin-top: 20px ">
+    <footer class="page-footer font-small blue pt-4">
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left margin:0" id="footer-body">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 mt-md-0 mt-3">
+            <!-- Content -->
+            <h5 class="footer-logo"><img src="" style="height:100px"/></h5>
+            <br><br>
+            <p>Sign up for our newsletter to stay up-to-date with our promotions, discounts, sales, and special offers</p>
+          </div>
+          <!-- Grid column -->
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase mt-4" >INFORMATION</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">ABOUT US</a>
+              </li>
+              <li>
+                <a href="#!">CONTACT US</a>
+              </li>
+              <li>
+                <a href="#!">PRIVACY POLICIES</a>
+              </li>
+              <li>
+                <a href="#!">ORDERS AND RETURNS</a>
+              </li>
+              <li>
+                <a href="#!">NEWSLETTER SUBSCRIPTION</a>
+              </li>
+              <li>
+                <a href="#!">TERMS AND CONDITIONS</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase mt-4">LOCATIONS</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Macpherson Outlet</a>
+              </li>
+              <li>
+                <a href="#!">VivoCity Outlet</a>
+              </li>
+              <li>
+                <a href="#!">NEX Outlet</a>
+              </li>
+              <li>
+                <a href="#!">Plaza Singapura Outlet</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase mt-4">CONTACTS</h5>
+            <ul class="list-unstyled" style="color:orange">
+              
+              <li>
+                <span class="info mr-3" style="font-size: 10px">Office:</span><a href="#!"> +65-87622323</a>
+              </li>
+              <li >
+                <span class="info mr-4" style="font-size: 10px">Email:</span><a href="#!">KurryCares@kurry.com</a>
+              </li>
+              <li>
+                <span class="info mr-2" style="font-size: 10px">Address:</span><a href="#!"> 166 Serangoon Road Singapore 218050</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="#"> Kurry PTE LTD</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    </div>
+    <!-- End Footer-->
+      
+
+
+
+      </div>
+  </section>
+
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
   </body>
 </html>

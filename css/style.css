@@ -1,3 +1,54 @@
-body{
-    background-color: aliceblue;
+
+
+#hero{
+    height: 850px;
+    background-color:white;
+    border: 0.1px black solid;
+    padding: 0;
+}
+
+#image1{
+    height: 850px;
+    width: 100%;
+    margin: 0;
+}
+
+#about-section { 
+    height: 550px;
+    background-color:white;
+    border: 0.1px black solid;
+    padding: 0;
+}
+
+.tz-gallery{
+
+}
+
+.tz-gallery img{
+    height: 260px;
+    padding: 20px;
+    box-shadow: 10px;
+}
+
+#footer{
+    display: flex;
+    height:auto;;
+    width: 100%;
+    background-color:rgb(39, 38, 38);
+    color: white;
+    padding: 0;
+}
+
+.footer-copyright a{
+    text-decoration: none;
+    color: white;
+}
+
+.list-unstyled a{
+    font-size: 10px;
+    color: grey;
+}
+
+.col {
+    padding:0 !important;
 }
