@@ -29,7 +29,6 @@ section{
 .tz-gallery img{
     height: 260px;
     padding: 20px;
-    box-shadow: 10px;
 }
 
 #footer{
@@ -53,4 +52,32 @@ section{
 
 .col {
     padding:0 !important;
+}
+
+#namecard{ 
+    background-color: rgb(241, 241, 241);
+}
+
+section .container{
+    padding: 1em;
+    border-radius: .5em;
+    height: 100%;
+    width: 70%;
+    box-shadow: -12px -12px 12px 0 rgb(255, 255, 255, .8),
+    12px 12px 12px 0 rgb(0, 0, 0, .07);
+}
+
+.container h5{
+    color: black;
+    text-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0);
+    text-align: center;
+    padding: 1em;
+    font-family: 'Raleway' ;
+    margin-top: 10%;
+    font-weight: 1000;
+}
+
+.container p{
+    color: rgb(83, 83, 83); 
+    text-align: center;
 }

@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
@@ -19,8 +20,10 @@
   <body>
 
     <!-- Nav bar hamburger -->
-    <header class="header">
-      <a href="" class="logo">The Golden Cut</a>
+    <header class="header flexbox">
+      <div id="logoimg">
+      <a href="" class="logo"> <img src="images/toppng.com-oldschoolbarbers-luxemburg-old-school-barber-shop-logo-814x724.png"/></a>
+      </div>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
@@ -41,8 +44,6 @@
     <!-- start container singers-->
     <section id="about-cards">
         <div class="w3-container" id="cards">
-
-
             <div class="w3-card-4" style="width:35%">
               <img src="images/cuthair.jpg" alt="Alps" style="width:100%">
               <div class="w3-container w3-center">
@@ -61,10 +62,13 @@
     <!-- end container singers-->
 
       <!-- next infographic-->
-  <section> 
-      
+  <section id="namecard"> 
+      <div class="container">
+        <h5> Hi, My name is KC. Looking forward to working with you!</h5>
+        <p> Check out what I can do by clicking the icons below!</p>
+      </div>
 </section>
-
+    <!-- end infographic-->
 
     <!-- start gallery-->
     <div class="container gallery-container">

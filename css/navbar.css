@@ -1,19 +1,19 @@
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
-    background-color: #f4f4f425;
+    background-color: #f4f4f488;
   }
   
   a {
-    color: rgb(245, 244, 244);
+    color: rgb(0, 0, 0);
     font-weight: 500;
   }
   
   /* header */
   
   .header {
-    background-color: rgba(255, 255, 255, 0.034);
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.01);
     position: fixed;
     width: 100%;
     z-index: 3;
@@ -35,8 +35,7 @@ body {
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #f4f4f402;
-    color: gray;
+    color: rgb(255, 255, 255);
   }
   
   .header .logo {
@@ -44,8 +43,14 @@ body {
     float: left;
     font-size: 2em;
     padding: 10px 20px;
-    text-decoration: none;
+
+
   }
+
+  .logo img{
+    height: 50px;
+  }
+
   
   /* menu */
   
